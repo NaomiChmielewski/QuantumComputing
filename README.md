@@ -1,7 +1,7 @@
 # QuantumComputing
 
 
-In this repository, I will be exploring quantum algorithms, refering mostly to the Nielsen&Chuang, "Learn Quantum Computing with Python and IBM Quantum Experience". All notebooks are created on IBM's quantum computing lab, written in Qiskit.
+In this repository, I will be exploring quantum algorithms, refering mostly to the Nielsen&Chuang, "Learn Quantum Computing with Python and IBM Quantum Experience". All notebooks are created on IBM's quantum computing lab, written in Qiskit. This repo assumes that you have some basic familiarity with quantum mechanics and have seen a few simple quantum circuits before. You should also be somewhat familiar with the standard Qiskit packages.
 
 I have taken inspiration from https://medium.com/qiskit/learn-quantum-computing-with-these-seven-projects-7478d90d125a to build this repository, but have added algorithms from other sources that I will refer to in their respective sections.
 
@@ -13,4 +13,4 @@ Quantum particles, however, are truly random. You can know everything about your
 
 ## 1 THE Teleportation Circuit
 
-This was my first formal introduction to quantum computing, and is often the first quantum circuit that students learn about. You can find detailled explanations of the architecture in the Mike&Ike section 1.3.7. 
+This was my first formal introduction to quantum computing, and is often the first quantum circuit that students learn about. You can find detailled explanations of the architecture in the Mike&Ike section 1.3.7. We create a quantum register with 3 qubits, the first of which is the unknows state (the one that Alice wants to transmit to Bob), the second and third qubits are the entangled EPR pair, the first of which belongs to Alice, and the second to Bob. 

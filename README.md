@@ -13,4 +13,4 @@ Quantum particles, however, are truly random. You can know everything about your
 
 ## 1 THE Teleportation Circuit
 
-This was my first formal introduction to quantum computing, and is often the first quantum circuit that students learn about. 
+This was my first formal introduction to quantum computing, and is often the first quantum circuit that students learn about. You can find detailled explanations of the architecture in the Mike&Ike section 1.3.7. 

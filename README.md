@@ -1,7 +1,7 @@
 # QuantumComputing
 
 
-In this repository, I will be exploring quantum algorithms, refering mostly to the Nielsen&Chuang, "Learn Quantum Computing with Python and IBM Quantum Experience"
+In this repository, I will be exploring quantum algorithms, refering mostly to the Nielsen&Chuang, "Learn Quantum Computing with Python and IBM Quantum Experience". All notebooks are created on IBM's quantum computing lab, written in Qiskit.
 
 I have taken inspiration from https://medium.com/qiskit/learn-quantum-computing-with-these-seven-projects-7478d90d125a to build this repository, but have added algorithms from other sources that I will refer to in their respective sections.
 

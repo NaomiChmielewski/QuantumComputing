@@ -25,3 +25,4 @@ The Deutsch Algorithm and its extension to an n-qubit system is a staple quantum
 
 ![Deutsch Algorithm](/images/deutschCircuit.png)
 
+The Deutsch-Josza algorithm is a natural extension to an n-qubit query register (still one auxiliary qubit) and it is here that we truly see the power of quantum parallelism: Denoting f as constant 0 (constant 1) if it always yields 0 (1) and as balanced if it yields 0 for half of the states and 1 for the other half, assuming that no other configurations are possible, and noting that an n-qubit system has 2^n possible configurations, it is easy to see that to evaluate the property of the oracle with classical computing, we would have to perform 2^(n-1) + 1 computations in the worst case, whereas the Deutsch-Josza algorithm only requires one measurement! 

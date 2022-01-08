@@ -1,9 +1,7 @@
 # QuantumComputing
 
 
-In this repository, I will be exploring quantum algorithms, refering mostly to the Nielsen&Chuang, "Learn Quantum Computing with Python and IBM Quantum Experience" (which I will be referring to as IBMbook). All notebooks are created on IBM's quantum computing lab, written in Qiskit. This repo assumes that you have some basic familiarity with quantum mechanics and have seen a few simple quantum circuits before. You should also be somewhat familiar with the standard Qiskit packages.
-
-I have taken inspiration from https://medium.com/qiskit/learn-quantum-computing-with-these-seven-projects-7478d90d125a to build this repository, but have added algorithms from other sources that I will refer to in their respective sections.
+In this repository, I will be exploring some quantum algorithms, taking inspiration from different sources including the Nielsen, Chuang: "Quantum Computation and Quantum Information" (referred to as Mike&Ike), Loredo: "Learn Quantum Computing with Python and IBM Quantum Experience" (referred to as IBMbook), Bhattacharyya et al.: "Quantum Machine Learning" and some IBM Qiskit Tutorials provided in thei quantum lab. All notebooks are created on IBM's quantum computing lab, written in Qiskit. This repo requires some basic familiarity with quantum mechanics and quantum circuits. You should also be somewhat familiar with the standard Qiskit packages.
 
 ## 0 Entangled Qubits
 
@@ -24,4 +22,6 @@ This was my first formal introduction to quantum computing, and is often the fir
 ## 3 Deutsch and Deutsch-Josza Algorithm
 
 The Deutsch Algorithm and its extension to an n-qubit system is a staple quantum algorithm that employs quantum parallelism. Suppose we have a function f: {0, 1} -> {0, 1}, known as the oracle, and we dispose of a query qubit and a target (auxiliary) qubit. There are four possible configurations for f: f(0) = f(1) = 0 (constant 0), f(0) = f(1) = 1 (constant 1), f(0) = 0, f(1) = 1 (balanced), f(1) = 0, f(0) = 1 (balanced). To evaluate whether f is balanced or constant, classical computing would need to evaluate each case seperately. Using the principles of quantum parallelism, we can evaluate this with just one measurement. The Deutsch Algorithm allows us to determine the balanced/constant property by only measuring the state of the first qubit after a certain set of transformations (the circuit for an unbalanced oracle is depicted below):
+
+![Deutsch Algorithm](/images/deutschCircuit.png)
 

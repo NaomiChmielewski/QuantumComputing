@@ -23,4 +23,5 @@ This was my first formal introduction to quantum computing, and is often the fir
 
 ## 3 Deutsch and Deutsch-Josza Algorithm
 
-The Deutsch Algorithm and its extension to an n-qubit system is a staple quantum algorithm that employs quantum parallelism.
+The Deutsch Algorithm and its extension to an n-qubit system is a staple quantum algorithm that employs quantum parallelism. Suppose we have a function f: {0, 1} -> {0, 1}, known as the oracle, and we dispose of a query qubit and a target (auxiliary) qubit. There are four possible configurations for f: f(0) = f(1) = 0 (constant 0), f(0) = f(1) = 1 (constant 1), f(0) = 0, f(1) = 1 (balanced), f(1) = 0, f(0) = 1 (balanced). To evaluate whether f is balanced or constant, classical computing would need to evaluate each case seperately. Using the principles of quantum parallelism, we can evaluate this with just one measurement. The Deutsch Algorithm allows us to determine the balanced/constant property by only measuring the state of the first qubit after a certain set of transformations (the circuit for an unbalanced oracle is depicted below):
+

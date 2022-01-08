@@ -7,7 +7,9 @@ I have taken inspiration from https://medium.com/qiskit/learn-quantum-computing-
 
 ## 0 Entangled Qubits
 
-Before diving into the Qiskit library, I tried to conduct a simple experiment on IBM's Quantum Composer. It is basically the simplest form of entaglement of two states. Both states start out in |0>, I apply a Hadamard gate to the top state to create a superposition state of equal amplitudes. To entangle the states, I apply a CNOT gate with the top state being the control qubit and the bottom state the target. When we now measure the top qubit, the bottom qubit must be in the same state and vice versa.
+Before diving into the Qiskit library, I tried to conduct a simple experiment on IBM's Quantum Composer. It is basically the simplest form of entaglement of two states. Both states start out in |0>, I apply a Hadamard gate to the top state to create a superposition state of equal amplitudes. To entangle the states, I apply a CNOT gate with the top state being the control qubit and the bottom state the target. When we now measure the top qubit, the bottom qubit must be in the same state and vice versa. 
+
+![Circuit Composer](/images/entangledCoinsComposer.png)
 
 ## 1 Quantum Random Number Generator
 

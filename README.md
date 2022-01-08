@@ -1,7 +1,7 @@
 # QuantumComputing
 
 
-In this repository, I will be exploring some quantum algorithms, taking inspiration from different sources including the Nielsen, Chuang: "Quantum Computation and Quantum Information" (referred to as Mike&Ike), Loredo: "Learn Quantum Computing with Python and IBM Quantum Experience" (referred to as IBMbook), Bhattacharyya et al.: "Quantum Machine Learning" and some IBM Qiskit Tutorials provided in thei quantum lab. All notebooks are created on IBM's quantum computing lab, written in Qiskit. This repo requires some basic familiarity with quantum mechanics and quantum circuits. You should also be somewhat familiar with the standard Qiskit packages.
+In this repository, I will be exploring some quantum algorithms, taking inspiration from different sources including the Nielsen, Chuang: "Quantum Computation and Quantum Information" (referred to as Mike&Ike), Loredo: "Learn Quantum Computing with Python and IBM Quantum Experience" (referred to as IBMbook), Bhattacharyya et al.: "Quantum Machine Learning" and some IBM Qiskit Tutorials provided in their quantum lab. All notebooks are created on IBM's quantum computing lab, written in Qiskit. This repo requires some basic familiarity with quantum mechanics and quantum circuits. You should also be somewhat familiar with the standard Qiskit packages.
 
 ## 0 Entangled Qubits
 

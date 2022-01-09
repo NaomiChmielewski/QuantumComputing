@@ -39,3 +39,5 @@ Note that qiskit has already implemented Simon's oracle (from qiskit_textbook.to
 ## 6 Grover's Search Algorithm
 
 ## 7 Quantum Neural Networks
+
+Schuld, Sinayskiy, Petruccione: The quest for a Quantum Neural Network and Beer et al.: Training deep quantum neural networks

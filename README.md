@@ -33,3 +33,9 @@ The Deutsch-Josza Algorithm leverages phase kickback to differentiate between ba
 
 Simon's Algorithm is what is known as a periodic quantum algorithm, as it is based on the quantum Fourier transform. It was the first algorithm to show exponential speed-up with respect to the best classical solution. The problem is to determine whether an oracle is one-to-one (injective) or two-to-one (the reciprocal image of each value in the function's range has exactly two elements in the function's domain). Similarly to the calculations from the previous section, it is clear that classically, at least 2^(n-1) + 1 computations must be performed. Simon's algorithm gurantees to find the solution in O(n) steps, achieving an exponential speedup. In order to compare the mappings, the auxiliary register must contain n qubits rather than 1. The entiree circuit thus contains 2n qubits.
 Note that qiskit has already implemented Simon's oracle (from qiskit_textbook.tools import simon_oracle), but here I implemented the oracle from scratch.
+
+## 5 Shor's Factoring Algorithm
+
+## 6 Grover's Search Algorithm
+
+## 7 Quantum Neural Networks

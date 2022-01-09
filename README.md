@@ -26,3 +26,9 @@ The Deutsch Algorithm and its extension to an n-qubit system is a staple quantum
 ![Deutsch Algorithm](/images/deutschCircuit.png)
 
 The Deutsch-Josza algorithm is a natural extension to an n-qubit query register (still one auxiliary qubit) and it is here that we truly see the power of quantum parallelism: Denoting f as constant 0 (constant 1) if it always yields 0 (1) and as balanced if it yields 0 for half of the states and 1 for the other half, assuming that no other configurations are possible, and noting that an n-qubit system has 2^n possible configurations, it is easy to see that to evaluate the property of the oracle with classical computing, we would have to perform 2^(n-1) + 1 computations in the worst case, whereas the Deutsch-Josza algorithm only requires one measurement! 
+
+## 4 Simon's Algorithm
+
+The Deutsch-Josza Algorithm leverages phase kickback to differentiate between balanced and constant oracles by setting the auxiliary qubit to |1> at the beginning. 
+
+Simon's Algorithm is what is known as a periodic quantum algorithm, as it is based on the quantum Fourier transform. It was the first algorithm to show exponential speed-up with respect to the best classical solution. The problem is to determine whether an oracle is one-to-one (injective) or two-to-one (the reciprocal image of each value in the function's range has exactly two elements in the function's domain). Similarly to the calculations from the previous section, it is clear that classically, at least 2^(n-1) + 1 computations must be performed. Simon's algorithm gurantees to find the solution in O(n) steps, achieving an exponential speedup.

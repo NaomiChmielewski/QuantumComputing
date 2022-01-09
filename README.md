@@ -40,6 +40,10 @@ Note that qiskit has already implemented Simon's oracle (from qiskit_textbook.to
 
 ## 7 Quantum Kernel Methods
 
-## 7 Quantum Neural Networks
+In classical machine learning, kernel methods are frequently used in pattern recognition. The kernel trick allows us to transform complex data structures into higher dimensional Hilbert spaces where the data is linearly seperable, and support vector classifiers or regressors can be employed without having to evaluate the feature map at each data point. For highly complex structures however, even the kernel method can fail as the kernel function becomes too comutationally costly to evaluate. This is where quantum algorithms can outshine classical methods. Havlicek et al. present in "Supervised learning with quantum enhanced feature spaces" two methods on NISQ computers by representing the feature space as a quantum state. In order for the methods to outperform the classical SVM, the feature map must be sufficiently complex. 
+
+The link between kernel methods and quantum machine learning models is discussed more in detail in Schuld: Quantum machine learning models are kernel methods
+
+## 8 Quantum Neural Networks
 
 Schuld, Sinayskiy, Petruccione: The quest for a Quantum Neural Network and Beer et al.: Training deep quantum neural networks

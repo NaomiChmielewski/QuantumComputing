@@ -52,4 +52,6 @@ A few challenges arise when attempting to translate the framework of classical n
 
 One approach to tackle these issues and produce a quantum neural net on NISQ devices is known as the parameterised quantum circuit. The PQC is a hybrid classical-quantum model, integrating a quantum circuit into an otherwise classical framework. Data is prepared on a classical device, using well known data preprocessing methods. The output of this preprocessing is used as the parameters of the encoder circuit in the PQC. The encoder is followed by a variational circuit, itself followed by a measurement operation. From the measurements, expectation values of observables are estimated. These estimates are fed into a classical post-processing unit where a non-linear activation function can be applied as usual. 
 
+![Architecture of a PQC](/images/PQC-schema.jpg)
+
 Beer et al.: Training deep quantum neural networks

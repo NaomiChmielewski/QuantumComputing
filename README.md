@@ -46,4 +46,10 @@ The link between kernel methods and quantum machine learning models is discussed
 
 ## 8 Quantum Neural Networks
 
-Schuld, Sinayskiy, Petruccione: The quest for a Quantum Neural Network and Beer et al.: Training deep quantum neural networks
+Several models of a potential quantum neural net have been proposed, both on NISQ and fault-tolerant devices. For a global overview of some interesting approaches, see Schuld, Sinayskiy, Petruccione: The quest for a Quantum Neural Network.
+
+A few challenges arise when attempting to translate the framework of classical neural networks to the quantum realm. First, quantum mechanics are inherently linear, which begs the question of how to implement non-linear activation functions. Another issue is that of parameter updates. In classical neural nets, parameter updates are typically done via some form of backpropagation. This approach becomes impossible in a quantum circuit, as it would require storing all intermediate states of the network during computation. 
+
+These challenges are tackled in parameterised quantum circuits.
+
+Beer et al.: Training deep quantum neural networks

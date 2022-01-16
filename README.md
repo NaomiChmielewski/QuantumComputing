@@ -54,4 +54,6 @@ One approach to tackle these issues and produce a quantum neural net on NISQ dev
 
 ![Architecture of a PQC](/images/PQC-schema.jpg)
 
+Parameter updates are done by considering the quantum circuit as a black box and using the parameter shift rule. For a detailled derivation of the parameter shift rule, see Schuld et al., Evaluating analytic gradients on quantum hardware, and for a more complete overview of the structure of PQCs, see Benedetti et al., Parameterized quantum circuits as machine learning models.
+
 Beer et al.: Training deep quantum neural networks

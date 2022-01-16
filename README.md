@@ -50,6 +50,6 @@ Several models of a potential quantum neural net have been proposed, both on NIS
 
 A few challenges arise when attempting to translate the framework of classical neural networks to the quantum realm. First, quantum mechanics are inherently linear, which begs the question of how to implement non-linear activation functions. Another issue is that of parameter updates. In classical neural nets, parameter updates are typically done via some form of backpropagation. This approach becomes impossible in a quantum circuit, as it would require storing all intermediate states of the network during computation. 
 
-These challenges are tackled in parameterised quantum circuits.
+One approach to tackle these issues and produce a quantum neural net on NISQ devices is known as the parameterised quantum circuit. The PQC is a hybrid classical-quantum 
 
 Beer et al.: Training deep quantum neural networks

@@ -56,6 +56,6 @@ One approach to tackle these issues and produce a quantum neural net on NISQ dev
 
 Parameter updates are done by considering the quantum circuit as a black box and using the parameter shift rule. For a detailled derivation of the parameter shift rule, see Schuld et al., Evaluating analytic gradients on quantum hardware, and for a more complete overview of the structure of PQCs, see Benedetti et al., Parameterized quantum circuits as machine learning models.
 
-The PQC implementation that I have uploaded does not provide any advantage over classical methods. I will upload implementation with a quantum advantage in the future.
+The PQC implementation that I have uploaded does not provide any advantage over classical methods. It is largely based on IBM's tutorial on Hybrid quantum-classical Neural Nets with some changes and adjustments. I will upload implementations attempting to achieve a quantum advantage in the future.
 
 Beer et al.: Training deep quantum neural networks
